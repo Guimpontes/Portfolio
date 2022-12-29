@@ -22,8 +22,8 @@ export default function Project() {
                 </C.ProjectIntroduceText>
 
                 <C.ProjectIntroduceImg>
-                    <img src={projectPage} />
-                <a href="http://www.freepik.com" target="_blank">Designed by slidesgo / Freepik</a>
+                    <img src={projectPage} alt="project thematic" />
+                <a href="http://www.freepik.com" target="_blank" rel="noreferrer">Designed by slidesgo / Freepik</a>
                 </C.ProjectIntroduceImg>
             </C.ProjectIntroduce>
 
@@ -43,14 +43,14 @@ export default function Project() {
 
                     <C.ProjectLanguages>
                         <h3>Languages:</h3>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" atl="javascript icon" />
                     </C.ProjectLanguages>
 
                     <C.ProjectButtons>
-                        <a href="https://github.com/Guimpontes/Countdown-page" target="_blank" translate="no"><i className="uil uil-github"></i> Github</a>
-                        <a href="https://guimpontes.github.io/Countdown-page/" target="_blank" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
+                        <a href="https://github.com/Guimpontes/Countdown-page" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-github"></i> Github</a>
+                        <a href="https://guimpontes.github.io/Countdown-page/" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
                     </C.ProjectButtons>
                 </C.ProjectContainer>
 
@@ -69,14 +69,14 @@ export default function Project() {
 
                     <C.ProjectLanguages>
                         <h3>Languages:</h3>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript icon" />
                     </C.ProjectLanguages>
 
                     <C.ProjectButtons>
-                        <a href="https://github.com/Guimpontes/Login-Page" target="_blank" translate="no"><i className="uil uil-github"></i> Github</a>
-                        <a href="https://guimpontes.github.io/Login-Page/" target="_blank" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
+                        <a href="https://github.com/Guimpontes/Login-Page" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-github"></i> Github</a>
+                        <a href="https://guimpontes.github.io/Login-Page/" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
                     </C.ProjectButtons>
                 </C.ProjectContainer>
 
@@ -95,14 +95,14 @@ export default function Project() {
 
                     <C.ProjectLanguages>
                         <h3>Languages:</h3>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap icon" />
                     </C.ProjectLanguages>
 
                     <C.ProjectButtons>
-                        <a href="https://github.com/Guimpontes/Filmes-page" target="_blank" translate="no"><i className="uil uil-github" ></i> Github</a>
-                        <a href="https://guimpontes.github.io/Filmes-page/" target="_blank" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
+                        <a href="https://github.com/Guimpontes/Filmes-page" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-github" ></i> Github</a>
+                        <a href="https://guimpontes.github.io/Filmes-page/" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
                     </C.ProjectButtons>
                 </C.ProjectContainer>
 
@@ -121,14 +121,14 @@ export default function Project() {
 
                     <C.ProjectLanguages>
                         <h3>Languages:</h3>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript icon" />
                     </C.ProjectLanguages>
 
                     <C.ProjectButtons>
-                        <a href="https://github.com/Guimpontes/Blog-page" target="_blank" translate="no"><i className="uil uil-github"></i> Github</a>
-                        <a href="https://guimpontes.github.io/Blog-page/" target="_blank" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
+                        <a href="https://github.com/Guimpontes/Blog-page" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-github"></i> Github</a>
+                        <a href="https://guimpontes.github.io/Blog-page/" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
                     </C.ProjectButtons>
                 </C.ProjectContainer>
             </C.Projects>
@@ -136,7 +136,7 @@ export default function Project() {
             <C.ProjectConsiderations>
                 <p>I don't have more complex project yet, <span>but as i develop more project, i'll post them here.</span></p>
 
-                <p>There are more project in my github repository. <a href="https://github.com/Guimpontes?tab=repositories" target="_blank"><span>View more</span></a></p>
+                <p>There are more project in my github repository. <a href="https://github.com/Guimpontes?tab=repositories" target="_blank" rel="noreferrer"><span>View more</span></a></p>
             </C.ProjectConsiderations>
         </Container>
     )

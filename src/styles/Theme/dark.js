@@ -1,4 +1,4 @@
-export default {
+const theme = {
     title: "dark",
 
     colors: {
@@ -9,3 +9,5 @@ export default {
         shadow_color: "rgba(255, 255, 255, .4)"
     }
 }
+
+export default theme

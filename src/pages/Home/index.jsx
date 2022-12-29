@@ -16,7 +16,7 @@ export default function Home() {
           </C.Introduce1Text>
 
           <C.Introduce1Img>
-            <img src={imgProfile} atl="image profile" />
+            <img src={imgProfile} alt="profile" />
           </C.Introduce1Img>
         </C.Introduce1>
 

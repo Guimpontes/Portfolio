@@ -4,7 +4,7 @@ import { ThemeContext } from 'styled-components';
 import NavBar from '../../components/NavBar'
 
 export default function Header({ toggleTheme }) {
-    const { color, title } = useContext(ThemeContext);
+    const { title } = useContext(ThemeContext);
     const [showNavBar, setShowNavBar] = useState(false);
 
     function onOpenNavBar() {

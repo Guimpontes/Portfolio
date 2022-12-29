@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container } from '../../styles/GlobalStyles';
 import * as C from './style';
 import aboutImg from '../../assets/img/about/about-img.svg'
@@ -15,8 +15,8 @@ export default function About() {
                     <h2>A little more about me</h2>
 
                     <C.AboutImg>
-                        <img src={aboutImg} alt="about image" />
-                        <a href="http://www.freepik.com" target="_blank">Designed by Freepik</a>
+                        <img src={aboutImg} alt="about" />
+                        <a href="http://www.freepik.com" target="_blank" rel="noreferrer">Designed by Freepik</a>
                     </C.AboutImg>
 
                     <p>Hi, <span>I'm Guilherme Mota Pontes</span>, i'm nineteen yers old and i live in Lençóis Paulista - São Paulo - Brazil.</p>
@@ -56,23 +56,23 @@ export default function About() {
 
                         <C.FrontEndContainer>
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" atl="html5 icon" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" atl="css3 icon" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" atl="bootstrap" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" atl="react icon" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" atl="javascript icon" />
                             </C.FrontEndSkills>
                         </C.FrontEndContainer>
                     </C.FrontEnd>
@@ -82,15 +82,15 @@ export default function About() {
 
                         <C.BackEndContainer>
                             <C.BackEnSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="firebase icon" />
                             </C.BackEnSkills>
 
                             <C.BackEnSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb icon" />
                             </C.BackEnSkills>
 
                             <C.BackEnSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs icon" />
                             </C.BackEnSkills>
                         </C.BackEndContainer>
                     </C.BackEnd>
@@ -100,15 +100,15 @@ export default function About() {
 
                         <C.TollsContainer>
                             <C.TollsIcon>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode icon" />
                             </C.TollsIcon>
 
                             <C.TollsIcon>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" atl="git icon" />
                             </C.TollsIcon>
 
                             <C.TollsIcon>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="window icon" />
                             </C.TollsIcon>
                         </C.TollsContainer>
                     </C.Tolls>
