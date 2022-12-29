@@ -64,7 +64,7 @@ export default function About() {
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" atl="bootstrap" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
