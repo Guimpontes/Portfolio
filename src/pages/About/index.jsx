@@ -56,11 +56,11 @@ export default function About() {
 
                         <C.FrontEndContainer>
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" atl="html5 icon" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 icon" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" atl="css3 icon" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 icon" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
@@ -68,11 +68,11 @@ export default function About() {
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" atl="react icon" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react icon" />
                             </C.FrontEndSkills>
 
                             <C.FrontEndSkills>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" atl="javascript icon" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript icon" />
                             </C.FrontEndSkills>
                         </C.FrontEndContainer>
                     </C.FrontEnd>
@@ -104,7 +104,7 @@ export default function About() {
                             </C.TollsIcon>
 
                             <C.TollsIcon>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" atl="git icon" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git icon" />
                             </C.TollsIcon>
 
                             <C.TollsIcon>
