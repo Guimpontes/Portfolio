@@ -5,6 +5,7 @@ import countDownPage from '../../assets/img/project/countdown-page.svg';
 import loginFormPage from '../../assets/img/project/loginForm-page.svg';
 import moviePage from '../../assets/img/project/movies-page.svg';
 import blogPage from '../../assets/img/project/blog-page.svg';
+import loginJWT from '../../assets/img/project/login-JWT.svg'
 
 import projectPage from '../../assets/img/project/project-page.svg'
 
@@ -23,7 +24,7 @@ export default function Project() {
 
                 <C.ProjectIntroduceImg>
                     <img src={projectPage} alt="project thematic" />
-                <a href="http://www.freepik.com" target="_blank" rel="noreferrer">Designed by slidesgo / Freepik</a>
+                    <a href="http://www.freepik.com" target="_blank" rel="noreferrer">Designed by slidesgo / Freepik</a>
                 </C.ProjectIntroduceImg>
             </C.ProjectIntroduce>
 
@@ -129,6 +130,34 @@ export default function Project() {
                     <C.ProjectButtons>
                         <a href="https://github.com/Guimpontes/Blog-page" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-github"></i> Github</a>
                         <a href="https://guimpontes.github.io/Blog-page/" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-file-alt"></i> Demo</a>
+                    </C.ProjectButtons>
+                </C.ProjectContainer>
+
+                <C.ProjectContainer>
+                    <C.ProjectImg>
+                        <img src={loginJWT} alt="jwt login page" />
+                    </C.ProjectImg>
+
+                    <C.ProjectTitle>
+                        <h2>LOGIN JWT</h2>
+                    </C.ProjectTitle>
+
+                    <C.ProjectDescription>
+                        <p>This is a simple JWT login page. MongoDB was used as the database,  It also has private routes and also has the backend</p>
+                    </C.ProjectDescription>
+
+
+                    <C.ProjectLanguages>
+                        <h3>Languages:</h3>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs icon" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb icon" />
+                    </C.ProjectLanguages>
+
+                    <C.ProjectButtons>
+                        <a href="https://github.com/Guimpontes/Login_JWT" target="_blank" rel="noreferrer" translate="no"><i className="uil uil-github"></i> Github</a>
                     </C.ProjectButtons>
                 </C.ProjectContainer>
             </C.Projects>

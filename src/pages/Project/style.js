@@ -64,7 +64,7 @@ export const Projects = styled.div`
     margin-bottom: 30px;
 
     @media screen and (min-width: 1200px) {
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 `
 export const ProjectContainer = styled.div`
